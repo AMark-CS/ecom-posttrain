@@ -1,0 +1,11 @@
+{
+  "total": 20,
+  "pass_rate": 0.05,
+  "block_rate": 0.0,
+  "warn_rate": 0.95,
+  "counters": {
+    "pass": 1,
+    "warn": 19,
+    "block": 0
+  }
+}

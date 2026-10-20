@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-20",
+  "split_counts": {
+    "sft": {
+      "train": 918,
+      "valid": 108,
+      "test": 54
+    },
+    "preference": {
+      "train": 306,
+      "valid": 36,
+      "test": 18
+    },
+    "multimodal": {
+      "train": 306,
+      "valid": 36,
+      "test": 18
+    }
+  },
+  "unique_sft_products": {
+    "train": 358,
+    "valid": 95,
+    "test": 52
+  },
+  "sft_product_overlap_with_train": {
+    "valid": 93,
+    "test": 51
+  }
+}

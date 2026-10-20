@@ -1,0 +1,31 @@
+{
+  "model_path": "output/ecommerce_sft/latest",
+  "data_path": "dataset/processed/sft_test.jsonl",
+  "metrics": {
+    "rouge_1": 1.0,
+    "rouge_2": 0.7592592592592593,
+    "rouge_l": 1.0,
+    "bleu": 0.6111111111111112,
+    "attribute_coverage": 0.6666666666666669,
+    "factual_consistency": 1.0,
+    "distinct_1": 0.34,
+    "distinct_2": 0.5515695067264574,
+    "num_samples": 54
+  },
+  "metric_groups": {
+    "技术指标": [
+      "rouge_1",
+      "rouge_2",
+      "rouge_l",
+      "bleu"
+    ],
+    "业务代理指标": [
+      "attribute_coverage",
+      "factual_consistency"
+    ],
+    "多样性指标": [
+      "distinct_1",
+      "distinct_2"
+    ]
+  }
+}

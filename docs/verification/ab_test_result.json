@@ -1,0 +1,22 @@
+{
+  "control_size": 20,
+  "experiment_size": 20,
+  "avg_attribute_coverage": {
+    "control": 0.75,
+    "experiment": 0.75
+  },
+  "avg_quality_score": {
+    "control": 0.09583333333333334,
+    "experiment": 0.19533333333333336
+  },
+  "simulated_ctr": {
+    "control": 0.064,
+    "experiment": 0.079
+  },
+  "lift_pct": {
+    "quality_score": 103.8,
+    "ctr": 23.4
+  },
+  "method": "offline_simulated_ab_test",
+  "scenario": "ecommerce_content_generation"
+}
