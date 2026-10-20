@@ -1,0 +1,9 @@
+# E-commerce LLM Post-Training Demo
+# Depends on core library (installed from GitHub):
+#   pip install git+https://github.com/AMark-CS/nano-posttrain.git
+torch>=2.1
+transformers>=4.40
+numpy
+Pillow>=10.0
+matplotlib>=3.8
+seaborn>=0.13

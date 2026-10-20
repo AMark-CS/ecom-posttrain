@@ -1,0 +1,46 @@
+{
+  "total_products": 360,
+  "rejected_products": 0,
+  "rejection_reasons": {},
+  "language_distribution": {
+    "zh": 182,
+    "en": 178
+  },
+  "category_distribution": {
+    "家居家纺": 22,
+    "电子产品": 19,
+    "图书音像": 24,
+    "宠物用品": 21,
+    "美妆护肤": 15,
+    "服装穿搭": 13,
+    "母婴儿童": 20,
+    "运动户外": 16,
+    "食品生鲜": 14,
+    "汽车用品": 18,
+    "Fashion & Apparel": 22,
+    "Home & Textiles": 14,
+    "Electronics": 19,
+    "Beauty & Skincare": 15,
+    "Automotive": 17,
+    "Food & Fresh": 14,
+    "Baby & Kids": 21,
+    "Books & Media": 22,
+    "Pet Supplies": 18,
+    "Sports & Outdoors": 16
+  },
+  "sft_examples": {
+    "train": 918,
+    "valid": 108,
+    "test": 54
+  },
+  "preference_examples": {
+    "train": 306,
+    "valid": 36,
+    "test": 18
+  },
+  "task_distribution": {
+    "product_description": 360,
+    "customer_service": 360,
+    "recommendation_explanation": 360
+  }
+}

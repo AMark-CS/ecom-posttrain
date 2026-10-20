@@ -1,0 +1,2522 @@
+[
+  {
+    "image": "https://cdn.example.com/products/zh/product_00001.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由小米推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000001",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00002.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由九阳推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000002",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00003.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款电子产品，主打铝合金工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000003",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00004.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "安克的这款电子产品，主打木质工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000004",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00005.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款家居家纺，主打木质工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000005",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00006.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由得力推出，采用硅胶材质，适合日常生活场景使用。",
+    "product_id": "PZH000006",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00007.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款李宁产品不容错过：棉材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000007",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00008.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找美妆护肤，这款华为产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000008",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00009.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找美妆护肤，这款完美日记产品不容错过：涤纶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000009",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00010.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款服装穿搭由蓝猫推出，采用铝合金材质，适合日常生活场景使用。",
+    "product_id": "PZH000010",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00011.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款美妆护肤，主打硅胶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000011",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00012.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款李宁产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000012",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00013.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款美妆护肤，主打羊毛工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000013",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00014.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款服装穿搭由得力推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000014",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00015.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款宠物用品，主打羊毛工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000015",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00016.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款电子产品，主打铝合金工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000016",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00017.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找运动户外，这款安克产品不容错过：塑料材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000017",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00018.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款食品生鲜，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000018",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00019.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由九阳推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000019",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00020.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由小米推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000020",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00021.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找汽车用品，这款安克产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000021",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00022.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找运动户外，这款李宁产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000022",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00023.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由得力推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000023",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00024.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由李宁推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000024",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00025.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款小米产品不容错过：涤纶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000025",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00027.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "李宁的这款运动户外，主打硅胶工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000027",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00028.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由小米推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000028",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00029.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "安克的这款图书音像，主打塑料工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000029",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00030.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由得力推出，采用铝合金材质，适合日常生活场景使用。",
+    "product_id": "PZH000030",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00031.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款服装穿搭，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000031",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00032.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款运动户外，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000032",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00033.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由安克推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000033",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00034.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款小米产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000034",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00035.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款安克产品不容错过：涤纶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000035",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00036.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由九阳推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000036",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00037.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找汽车用品，这款蒙牛产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000037",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00039.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由蓝猫推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000039",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00040.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由安克推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000040",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00041.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由完美日记推出，采用铝合金材质，适合日常生活场景使用。",
+    "product_id": "PZH000041",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00043.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款李宁产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000043",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00044.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由完美日记推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000044",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00045.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找电子产品，这款小米产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000045",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00046.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由波司登推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000046",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00047.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款电子产品，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000047",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00048.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找电子产品，这款蒙牛产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000048",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00049.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款运动户外由九阳推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000049",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00050.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找服装穿搭，这款蒙牛产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000050",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00051.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款服装穿搭，主打棉工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000051",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00052.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由完美日记推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000052",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00053.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款母婴儿童，主打塑料工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000053",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00054.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由小米推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000054",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00055.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找电子产品，这款华为产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000055",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00056.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款家居家纺，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000056",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00057.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款汽车用品，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000057",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00058.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款蒙牛产品不容错过：涤纶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000058",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00059.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由波司登推出，采用铝合金材质，适合日常生活场景使用。",
+    "product_id": "PZH000059",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00060.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找服装穿搭，这款九阳产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000060",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00061.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "九阳的这款运动户外，主打木质工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000061",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00062.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找汽车用品，这款蓝猫产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000062",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00063.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由李宁推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000063",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00064.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "九阳的这款图书音像，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000064",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00065.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由波司登推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000065",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00066.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "李宁的这款运动户外，主打铝合金工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000066",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00067.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款安克产品不容错过：铝合金材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000067",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00068.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款宠物用品，主打铝合金工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000068",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00069.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款完美日记产品不容错过：塑料材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000069",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00070.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款图书音像，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000070",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00071.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款安克产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000071",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00072.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款运动户外，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000072",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00073.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找运动户外，这款九阳产品不容错过：棉材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000073",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00074.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款波司登产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000074",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00075.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款美妆护肤，主打硅胶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000075",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00076.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找服装穿搭，这款蓝猫产品不容错过：羊毛材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000076",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00077.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由小米推出，采用硅胶材质，适合日常生活场景使用。",
+    "product_id": "PZH000077",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00078.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款运动户外，主打木质工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000078",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00080.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由华为推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000080",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00081.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款安克产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000081",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00082.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款完美日记产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000082",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00083.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款服装穿搭，主打棉工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000083",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00085.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款九阳产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000085",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00086.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款汽车用品，主打硅胶工艺，中低价 (¥50-¥200)，支持多种使用场景。",
+    "product_id": "PZH000086",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00088.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款图书音像，主打羊毛工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000088",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00089.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款蓝猫产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000089",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00090.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款电子产品，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000090",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00092.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款李宁产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000092",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00093.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款图书音像，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000093",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00094.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款九阳产品不容错过：铝合金材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000094",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00095.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款母婴儿童，主打塑料工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000095",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00096.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由华为推出，采用真皮材质，适合日常生活场景使用。",
+    "product_id": "PZH000096",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00097.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由得力推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000097",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00098.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款食品生鲜，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000098",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00099.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由安克推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000099",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00100.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款图书音像，主打棉工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000100",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00101.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款运动户外由蓝猫推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000101",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00102.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款李宁产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000102",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00103.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款汽车用品，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000103",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00104.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由九阳推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000104",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00105.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款服装穿搭由李宁推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000105",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00107.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款李宁产品不容错过：羊毛材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000107",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00108.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由安克推出，采用真皮材质，适合日常生活场景使用。",
+    "product_id": "PZH000108",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00109.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由九阳推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000109",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00110.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由得力推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000110",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00111.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由九阳推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000111",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00112.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款小米产品不容错过：塑料材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000112",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00113.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由得力推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000113",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00114.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款家居家纺，主打木质工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000114",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00115.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款波司登产品不容错过：塑料材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000115",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00116.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款电子产品，主打塑料工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000116",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00117.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款汽车用品，主打铝合金工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000117",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00118.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由九阳推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000118",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00120.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找美妆护肤，这款安克产品不容错过：棉材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000120",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00121.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款图书音像，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000121",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00122.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款运动户外，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000122",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00123.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由得力推出，采用真皮材质，适合日常生活场景使用。",
+    "product_id": "PZH000123",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00124.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "得力的这款母婴儿童，主打棉工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000124",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00125.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款蓝猫产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000125",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00126.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由波司登推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000126",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00127.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找美妆护肤，这款波司登产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000127",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00128.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款图书音像，主打羊毛工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000128",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00129.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款得力产品不容错过：棉材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000129",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00130.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蓝猫的这款家居家纺，主打塑料工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000130",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00131.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款得力产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000131",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00132.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找汽车用品，这款小米产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000132",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00133.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款家居家纺，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000133",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00134.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款电子产品，主打塑料工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000134",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00135.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由波司登推出，采用真皮材质，适合日常生活场景使用。",
+    "product_id": "PZH000135",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00136.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由李宁推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000136",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00137.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款图书音像，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000137",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00138.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款蒙牛产品不容错过：塑料材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000138",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00139.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由李宁推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000139",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00140.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由完美日记推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000140",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00141.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款宠物用品，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000141",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00142.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找美妆护肤，这款李宁产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000142",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00143.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款蓝猫产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000143",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00144.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款波司登产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000144",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00145.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款服装穿搭，主打玻璃工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000145",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00148.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由完美日记推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000148",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00149.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由得力推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000149",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00150.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由波司登推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000150",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00151.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "李宁的这款家居家纺，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000151",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00152.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "九阳的这款运动户外，主打真皮工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000152",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00153.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由波司登推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000153",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00154.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款李宁产品不容错过：涤纶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000154",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00155.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款电子产品，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000155",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00156.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由小米推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000156",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00157.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "九阳的这款美妆护肤，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000157",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00158.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由完美日记推出，采用真皮材质，适合日常生活场景使用。",
+    "product_id": "PZH000158",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00160.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款小米产品不容错过：硅胶材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000160",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00161.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款图书音像，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000161",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00162.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由完美日记推出，采用棉材质，适合日常生活场景使用。",
+    "product_id": "PZH000162",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00163.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由蓝猫推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000163",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00164.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找家居家纺，这款安克产品不容错过：羊毛材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000164",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00165.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款汽车用品，主打羊毛工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000165",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00166.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "李宁的这款汽车用品，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000166",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00167.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找运动户外，这款华为产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000167",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00168.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款图书音像由华为推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000168",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00169.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找服装穿搭，这款得力产品不容错过：铝合金材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000169",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00170.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "波司登的这款母婴儿童，主打棉工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000170",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00171.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由得力推出，采用玻璃材质，适合日常生活场景使用。",
+    "product_id": "PZH000171",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00172.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由华为推出，采用羊毛材质，适合日常生活场景使用。",
+    "product_id": "PZH000172",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00173.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由九阳推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000173",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00174.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款蒙牛产品不容错过：真皮材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000174",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00175.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款电子产品，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000175",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00176.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找母婴儿童，这款完美日记产品不容错过：羊毛材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000176",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00177.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "九阳的这款服装穿搭，主打涤纶工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000177",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00178.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找宠物用品，这款蓝猫产品不容错过：不锈钢材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000178",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00179.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款食品生鲜由九阳推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000179",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00182.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款汽车用品由得力推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000182",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00183.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "小米的这款运动户外，主打涤纶工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000183",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00184.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "完美日记的这款运动户外，主打棉工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000184",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00185.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款母婴儿童由华为推出，采用涤纶材质，适合日常生活场景使用。",
+    "product_id": "PZH000185",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00186.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款家居家纺由波司登推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000186",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00187.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "华为的这款汽车用品，主打不锈钢工艺，高价 (>¥1000)，支持多种使用场景。",
+    "product_id": "PZH000187",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00188.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款美妆护肤由华为推出，采用不锈钢材质，适合日常生活场景使用。",
+    "product_id": "PZH000188",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00190.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款宠物用品由蒙牛推出，采用木质材质，适合日常生活场景使用。",
+    "product_id": "PZH000190",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00191.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找食品生鲜，这款完美日记产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000191",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00192.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "这款电子产品由小米推出，采用塑料材质，适合日常生活场景使用。",
+    "product_id": "PZH000192",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00194.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款九阳产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000194",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00195.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找图书音像，这款华为产品不容错过：木质材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000195",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00196.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "如果你在找电子产品，这款李宁产品不容错过：玻璃材质，性价比高，口碑优秀，日常通勤 / 休闲出行。",
+    "product_id": "PZH000196",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00198.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款家居家纺，主打硅胶工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000198",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/zh/product_00199.jpg",
+    "instruction": "请描述这张商品图片。",
+    "output": "蒙牛的这款服装穿搭，主打真皮工艺，中高价 (¥200-¥1000)，支持多种使用场景。",
+    "product_id": "PZH000199",
+    "language": "zh"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00001.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Deli product is a great choice: 硅胶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000001",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00002.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Li-Ning is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000002",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00003.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This Perfect Diary product is a great choice: 涤纶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000003",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00004.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by Mengniu is made of 羊毛, suitable for daily life.",
+    "product_id": "PEN000004",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00005.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Joyoung product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000005",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00006.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Beauty & Skincare by BlueCat is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000006",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00007.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Beauty & Skincare features 羊毛 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000007",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00008.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Automotive by Deli is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000008",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00009.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by BlueCat is made of 铝合金, suitable for daily life.",
+    "product_id": "PEN000009",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00010.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Food & Fresh features 塑料 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000010",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00011.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by Li-Ning is made of 木质, suitable for daily life.",
+    "product_id": "PEN000011",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00012.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Baby & Kids features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000012",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00013.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Baby & Kids features 塑料 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000013",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00014.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Joyoung is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000014",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00015.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Joyoung's Automotive features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000015",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00016.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Beauty & Skincare features 羊毛 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000016",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00017.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Pet Supplies? This Deli product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000017",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00018.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Xiaomi product is a great choice: 不锈钢, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000018",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00019.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Automotive? This Mengniu product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000019",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00020.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Automotive by Xiaomi is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000020",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00021.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Food & Fresh features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000021",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00022.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Pet Supplies? This Mengniu product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000022",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00023.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by BlueCat is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000023",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00024.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by Perfect Diary is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000024",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00025.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Deli product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000025",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00026.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Perfect Diary's Baby & Kids features 木质 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000026",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00027.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Baby & Kids features 玻璃 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000027",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00028.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Huawei product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000028",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00029.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This Perfect Diary product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000029",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00030.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This BlueCat product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000030",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00031.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by Bosideng is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000031",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00032.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Electronics features 木质 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000032",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00033.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Pet Supplies features 木质 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000033",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00034.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Deli product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000034",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00035.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Electronics? This Anker product is a great choice: 硅胶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000035",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00036.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Li-Ning product is a great choice: 塑料, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000036",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00037.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by BlueCat is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000037",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00038.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Baby & Kids features 塑料 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000038",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00039.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Deli is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000039",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00040.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This Deli product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000040",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00041.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This Perfect Diary product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000041",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00042.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Home & Textiles features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000042",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00043.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Deli is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000043",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00044.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by Deli is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000044",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00045.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Deli's Baby & Kids features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000045",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00046.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This Anker product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000046",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00047.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Pet Supplies? This Joyoung product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000047",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00048.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Electronics features 羊毛 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000048",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00049.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Joyoung product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000049",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00050.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Books & Media features 硅胶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000050",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00051.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by BlueCat is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000051",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00052.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Baby & Kids features 真皮 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000052",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00054.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Joyoung's Sports & Outdoors features 真皮 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000054",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00056.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Sports & Outdoors by Deli is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000056",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00057.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Food & Fresh features 玻璃 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000057",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00058.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Sports & Outdoors features 木质 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000058",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00060.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Automotive? This Perfect Diary product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000060",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00061.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Mengniu product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000061",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00062.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Pet Supplies by Deli is made of 棉, suitable for daily life.",
+    "product_id": "PEN000062",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00063.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Deli product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000063",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00064.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Bosideng product is a great choice: 塑料, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000064",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00065.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Automotive features 塑料 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000065",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00066.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Joyoung product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000066",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00067.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Pet Supplies features 羊毛 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000067",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00068.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Li-Ning is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000068",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00069.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Bosideng product is a great choice: 硅胶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000069",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00071.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This BlueCat product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000071",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00072.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Pet Supplies features 不锈钢 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000072",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00073.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Food & Fresh features 玻璃 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000073",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00074.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Food & Fresh features 铝合金 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000074",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00076.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Beauty & Skincare? This Li-Ning product is a great choice: 塑料, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000076",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00077.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Pet Supplies? This Joyoung product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000077",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00078.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by Huawei is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000078",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00079.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Automotive features 玻璃 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000079",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00080.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This Perfect Diary product is a great choice: 涤纶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000080",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00081.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Bosideng is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000081",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00082.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This Xiaomi product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000082",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00083.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This BlueCat product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000083",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00084.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Automotive features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000084",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00085.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Fashion & Apparel? This Xiaomi product is a great choice: 塑料, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000085",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00086.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Pet Supplies features 铝合金 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000086",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00087.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Anker is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000087",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00088.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Food & Fresh by Mengniu is made of 羊毛, suitable for daily life.",
+    "product_id": "PEN000088",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00089.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Electronics features 真皮 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000089",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00090.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by Perfect Diary is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000090",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00091.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Pet Supplies features 铝合金 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000091",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00092.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Beauty & Skincare? This Joyoung product is a great choice: 涤纶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000092",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00093.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This Joyoung product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000093",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00094.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Mengniu is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000094",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00095.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Huawei is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000095",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00096.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Joyoung product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000096",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00098.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Automotive features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000098",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00100.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Fashion & Apparel features 铝合金 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000100",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00101.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Electronics? This Xiaomi product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000101",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00102.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Sports & Outdoors by Li-Ning is made of 木质, suitable for daily life.",
+    "product_id": "PEN000102",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00103.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by Bosideng is made of 棉, suitable for daily life.",
+    "product_id": "PEN000103",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00104.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by BlueCat is made of 棉, suitable for daily life.",
+    "product_id": "PEN000104",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00105.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Beauty & Skincare by Deli is made of 棉, suitable for daily life.",
+    "product_id": "PEN000105",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00107.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Beauty & Skincare? This Bosideng product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000107",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00108.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Deli product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000108",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00109.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Baby & Kids features 塑料 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000109",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00110.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Beauty & Skincare features 真皮 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000110",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00111.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Deli's Automotive features 不锈钢 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000111",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00112.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Mengniu is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000112",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00113.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Pet Supplies? This Xiaomi product is a great choice: 不锈钢, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000113",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00114.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Books & Media features 木质 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000114",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00115.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This BlueCat product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000115",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00116.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Automotive features 硅胶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000116",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00117.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Food & Fresh features 玻璃 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000117",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00118.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Li-Ning is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000118",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00119.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Electronics? This Perfect Diary product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000119",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00122.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Anker is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000122",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00124.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Li-Ning is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000124",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00125.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Joyoung's Electronics features 羊毛 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000125",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00126.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Automotive? This Deli product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000126",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00127.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Electronics by Deli is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000127",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00128.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Fashion & Apparel features 铝合金 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000128",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00129.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This Mengniu product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000129",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00130.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Food & Fresh by Huawei is made of 棉, suitable for daily life.",
+    "product_id": "PEN000130",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00131.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Xiaomi is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000131",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00132.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Pet Supplies by Huawei is made of 棉, suitable for daily life.",
+    "product_id": "PEN000132",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00133.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Perfect Diary product is a great choice: 涤纶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000133",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00136.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This Bosideng product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000136",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00137.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Electronics features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000137",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00138.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Sports & Outdoors features 塑料 craftsmanship, 中低价 (¥50-¥200). supports multiple usage scenarios.",
+    "product_id": "PEN000138",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00139.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Sports & Outdoors? This Bosideng product is a great choice: 羊毛, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000139",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00140.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Huawei's Beauty & Skincare features 真皮 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000140",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00141.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Sports & Outdoors by Mengniu is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000141",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00142.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Home & Textiles features 硅胶 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000142",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00143.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Home & Textiles by Xiaomi is made of 铝合金, suitable for daily life.",
+    "product_id": "PEN000143",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00144.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Sports & Outdoors by Xiaomi is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000144",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00145.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Pet Supplies by Deli is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000145",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00146.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Anker's Books & Media features 硅胶 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000146",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00147.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Baby & Kids? This Perfect Diary product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000147",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00148.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Perfect Diary's Fashion & Apparel features 硅胶 craftsmanship, 中低价 (¥50-¥200). supports multiple usage scenarios.",
+    "product_id": "PEN000148",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00149.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Mengniu is made of 羊毛, suitable for daily life.",
+    "product_id": "PEN000149",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00150.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Books & Media features 硅胶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000150",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00151.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Li-Ning's Pet Supplies features 塑料 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000151",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00152.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Beauty & Skincare? This Joyoung product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000152",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00153.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Beauty & Skincare features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000153",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00154.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Perfect Diary's Beauty & Skincare features 硅胶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000154",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00155.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Joyoung product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000155",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00157.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Joyoung's Fashion & Apparel features 硅胶 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000157",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00158.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This Li-Ning product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000158",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00160.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Huawei is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000160",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00161.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "BlueCat's Baby & Kids features 铝合金 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000161",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00162.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Mengniu product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000162",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00163.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Home & Textiles? This Anker product is a great choice: 不锈钢, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000163",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00164.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Automotive features 不锈钢 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000164",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00166.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Beauty & Skincare? This Li-Ning product is a great choice: 涤纶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000166",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00168.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Mengniu's Automotive features 羊毛 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000168",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00169.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This Joyoung product is a great choice: 塑料, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000169",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00170.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Huawei is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000170",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00172.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Fashion & Apparel by Deli is made of 塑料, suitable for daily life.",
+    "product_id": "PEN000172",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00173.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Pet Supplies features 棉 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000173",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00174.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Automotive? This Deli product is a great choice: 硅胶, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000174",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00175.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Anker is made of 棉, suitable for daily life.",
+    "product_id": "PEN000175",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00176.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Automotive? This Perfect Diary product is a great choice: 玻璃, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000176",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00177.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Deli's Automotive features 涤纶 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000177",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00179.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Perfect Diary's Beauty & Skincare features 棉 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000179",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00180.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by Huawei is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000180",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00181.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Pet Supplies by Bosideng is made of 真皮, suitable for daily life.",
+    "product_id": "PEN000181",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00182.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Deli is made of 铝合金, suitable for daily life.",
+    "product_id": "PEN000182",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00183.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This Joyoung product is a great choice: 铝合金, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000183",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00184.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Electronics? This Perfect Diary product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000184",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00187.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Books & Media? This BlueCat product is a great choice: 棉, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000187",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00188.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Huawei is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000188",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00189.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Food & Fresh? This Mengniu product is a great choice: 木质, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000189",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00190.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Baby & Kids by Xiaomi is made of 玻璃, suitable for daily life.",
+    "product_id": "PEN000190",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00191.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Books & Media by BlueCat is made of 硅胶, suitable for daily life.",
+    "product_id": "PEN000191",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00192.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Perfect Diary's Fashion & Apparel features 木质 craftsmanship, 中高价 (¥200-¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000192",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00193.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Electronics features 不锈钢 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000193",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00194.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Looking for a Electronics? This Li-Ning product is a great choice: 真皮, high cost-performance, excellent reputation, perfect for daily commute / casual outing.",
+    "product_id": "PEN000194",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00195.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Electronics features 涤纶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000195",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00196.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Beauty & Skincare by Bosideng is made of 涤纶, suitable for daily life.",
+    "product_id": "PEN000196",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00198.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Xiaomi's Pet Supplies features 真皮 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000198",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00199.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "This Sports & Outdoors by Joyoung is made of 不锈钢, suitable for daily life.",
+    "product_id": "PEN000199",
+    "language": "en"
+  },
+  {
+    "image": "https://cdn.example.com/products/en/product_00200.jpg",
+    "instruction": "Please describe this product image.",
+    "output": "Bosideng's Pet Supplies features 硅胶 craftsmanship, 高价 (>¥1000). supports multiple usage scenarios.",
+    "product_id": "PEN000200",
+    "language": "en"
+  }
+]

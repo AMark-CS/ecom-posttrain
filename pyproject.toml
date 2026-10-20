@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ecom-posttrain"
+version = "0.2.0"
+description = "E-commerce LLM post-training demo: end-to-end SFT + DPO + GRPO + evaluation + deployment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "transformers>=4.40",
+    "numpy",
+    "nano-posttrain @ git+https://github.com/AMark-CS/nano-posttrain.git@main",
+]
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4", "matplotlib>=3.8", "seaborn>=0.13"]
