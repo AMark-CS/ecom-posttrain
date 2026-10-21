@@ -75,6 +75,7 @@ class TrainerTests(unittest.TestCase):
         import tempfile
         with tempfile.TemporaryDirectory() as folder:
             seen=[];trainer=self.make_trainer(folder,callback=seen.append)
+            phases=[];trainer.on_phase=phases.append
             seq,texts=trainer.rollout([7,1],2)
             self.assertEqual(seq[0],([7,1,2,9],[-100,-100,2,9]))
             self.assertEqual(seq[1][0],[7,1,3,4,9])
@@ -82,6 +83,8 @@ class TrainerTests(unittest.TestCase):
             trainer.fit()
             self.assertEqual(trainer.completed_steps,2)
             self.assertEqual([m['step'] for m in seen],[1,2])
+            self.assertTrue(any('sampling prompt' in message for message in phases))
+            self.assertTrue(any('backpropagating rollout' in message for message in phases))
             self.assertGreater(trainer.model.logits[3].item(),trainer.model.logits[2].item())
             self.assertTrue(all(p.grad is None for p in trainer.ref_model.parameters()))
 

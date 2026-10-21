@@ -28,9 +28,10 @@ def restore_lora(model, path):
 
 
 class GRPOTrainer:
-    def __init__(self, cfg: GRPOConfig, *, on_step=None, should_stop=None):
+    def __init__(self, cfg: GRPOConfig, *, on_step=None, should_stop=None, on_phase=None):
         self.cfg = self.config = cfg
         self.on_step, self.should_stop = on_step, should_stop or (lambda: False)
+        self.on_phase = on_phase or (lambda message: None)
         self.completed_steps = 0
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         random.seed(cfg.seed)
@@ -136,7 +137,8 @@ class GRPOTrainer:
                 break
             sequences, advantages, rewards = [], [], []
             flat_groups = 0
-            for item in rng.sample(self.prompts, min(cfg.prompts_per_step,len(self.prompts))):
+            for prompt_index, item in enumerate(rng.sample(self.prompts, min(cfg.prompts_per_step,len(self.prompts)))):
+                self.on_phase(f"GRPO step {index+1}/{cfg.max_steps}: sampling prompt {prompt_index+1}, {cfg.group_size} completions")
                 group, texts = self.rollout(item["input_ids"],cfg.group_size)
                 if self.should_stop():
                     break
@@ -149,9 +151,10 @@ class GRPOTrainer:
             self.optimizer.zero_grad()
             metrics = {"loss":0., "policy_loss":0., "kl":0.}
             # Sequence micro-batches retain the original equal-sequence GRPO normalization on an 8GB GPU.
-            for seq, adv in zip(sequences,advantages):
+            for rollout_index, (seq, adv) in enumerate(zip(sequences,advantages)):
                 if self.should_stop():
                     break
+                self.on_phase(f"GRPO step {index+1}/{cfg.max_steps}: scoring/backpropagating rollout {rollout_index+1}/{len(sequences)}")
                 loss, values = self.grpo_loss([seq],[adv])
                 (loss / len(sequences)).backward()
                 for key in metrics:
