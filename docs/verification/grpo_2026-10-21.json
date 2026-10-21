@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-21",
+  "hardware": "RTX 3060 8GB",
+  "method": "single-update sequence-normalized GRPO",
+  "rule_reward_not_human_preference": true,
+  "training": {
+    "id": "9dac46869e2b4dd49aa4b71f7c1393d0",
+    "config": {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "adapter": "ecom-dpo-smoke",
+      "seed": 42,
+      "allow_download": false,
+      "method": "grpo",
+      "dataset": "ecom-grpo",
+      "max_steps": 3,
+      "num_epochs": 0,
+      "learning_rate": 1e-05,
+      "per_device_batch_size": 1,
+      "grad_accum_steps": 1,
+      "max_length": 128,
+      "max_prompt_length": 64,
+      "lora_r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "dtype": "bfloat16",
+      "beta": 0.1,
+      "gamma": 0.1,
+      "ref_device": "cpu",
+      "save_every": 1,
+      "max_examples": 8,
+      "group_size": 4,
+      "prompts_per_step": 1,
+      "kl_beta": 0.02,
+      "clip_epsilon": 0.2,
+      "rollout_max_new_tokens": 24,
+      "rollout_temperature": 1.0,
+      "rollout_top_p": 0.95,
+      "kind": "train"
+    },
+    "metrics": [
+      {
+        "type": "metric",
+        "loss": 1.730024814605713e-05,
+        "policy_loss": -1.4901161193847656e-08,
+        "kl": 0.0008658589795231819,
+        "step": 1,
+        "total_steps": 3,
+        "learning_rate": 1e-05,
+        "mean_reward": 0.6381393142330642,
+        "max_reward": 0.6419642857142858,
+        "min_reward": 0.6338920454545455,
+        "adv_abs_mean": 0.9645009213497039,
+        "flat_groups": 0,
+        "n_rollouts": 4,
+        "elapsed_seconds": 22.34,
+        "peak_vram_mb": 1258.5
+      },
+      {
+        "type": "metric",
+        "loss": 2.0891427993774414e-05,
+        "policy_loss": -1.4901161193847656e-08,
+        "kl": 0.001045029770466499,
+        "step": 2,
+        "total_steps": 3,
+        "learning_rate": 1e-05,
+        "mean_reward": 0.74234375,
+        "max_reward": 0.798125,
+        "min_reward": 0.72375,
+        "adv_abs_mean": 0.8659985138630883,
+        "flat_groups": 0,
+        "n_rollouts": 4,
+        "elapsed_seconds": 37.386,
+        "peak_vram_mb": 1313.9
+      },
+      {
+        "type": "metric",
+        "loss": 2.1576881408691406e-05,
+        "policy_loss": 0.0,
+        "kl": 0.0010782664321595803,
+        "step": 3,
+        "total_steps": 3,
+        "learning_rate": 5e-06,
+        "mean_reward": 0.6865625,
+        "max_reward": 0.72375,
+        "min_reward": 0.649375,
+        "adv_abs_mean": 0.9999731099667908,
+        "flat_groups": 0,
+        "n_rollouts": 4,
+        "elapsed_seconds": 52.34,
+        "peak_vram_mb": 1313.9
+      }
+    ],
+    "result": {
+      "type": "result",
+      "completed_steps": 3,
+      "requested_steps": 3,
+      "model": "Qwen/Qwen2.5-0.5B",
+      "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+      "elapsed_seconds": 52.54,
+      "reward": "e-commerce rule heuristic",
+      "reference_adapter": "ecom-dpo-smoke",
+      "message": "Target steps completed",
+      "peak_vram_mb": 1313.9
+    },
+    "checkpoints": [
+      {
+        "type": "checkpoint",
+        "id": "9dac46869e2b4dd49aa4b71f7c1393d0-s1",
+        "label": "GRPO 9dac4686 / step 1",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+        "step": 1,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05
+      },
+      {
+        "type": "checkpoint",
+        "id": "9dac46869e2b4dd49aa4b71f7c1393d0-s2",
+        "label": "GRPO 9dac4686 / step 2",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+        "step": 2,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05
+      },
+      {
+        "type": "checkpoint",
+        "id": "9dac46869e2b4dd49aa4b71f7c1393d0-s3",
+        "label": "GRPO 9dac4686 / step 3",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+        "step": 3,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05
+      }
+    ]
+  },
+  "generation": {
+    "id": "66bfbca7acc54658ac2dc1eb8bee2e67",
+    "text": "A stainless steel travel bottle is a stylish and practical container for",
+    "result": {
+      "type": "result",
+      "text": "A stainless steel travel bottle is a stylish and practical container for",
+      "model": "Qwen/Qwen2.5-0.5B",
+      "adapter": "9dac46869e2b4dd49aa4b71f7c1393d0-s3",
+      "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+      "output_tokens": 12,
+      "finish_reason": "length",
+      "cache_hit": false,
+      "load_seconds": 1.797,
+      "elapsed_seconds": 1.093,
+      "peak_vram_mb": 999.3
+    }
+  },
+  "cancelled": {
+    "id": "b1a667af1f4045028f3c5b2f58b79ee1",
+    "status": "cancelled",
+    "result": {
+      "type": "result",
+      "completed_steps": 1,
+      "requested_steps": 10,
+      "model": "Qwen/Qwen2.5-0.5B",
+      "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+      "elapsed_seconds": 16.8,
+      "reward": "e-commerce rule heuristic",
+      "reference_adapter": "ecom-dpo-smoke",
+      "message": "Stopped safely",
+      "peak_vram_mb": 1268.0
+    },
+    "checkpoints": [
+      {
+        "type": "checkpoint",
+        "id": "b1a667af1f4045028f3c5b2f58b79ee1-s1",
+        "label": "GRPO b1a667af / step 1",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+        "step": 1,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05
+      }
+    ]
+  },
+  "changed_adapter_tensors": 338,
+  "total_adapter_tensors": 338,
+  "all_adapter_tensors_finite": true
+}

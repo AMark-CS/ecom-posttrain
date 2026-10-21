@@ -38,7 +38,7 @@ Reports and reproduction commands are in [docs/verification](docs/verification/R
 | Content filter | Baseline: 100% pass; tuned: 5% pass, 95% warn; both: 0% block | Numeric checks can confuse sales counts with prices; warnings need investigation |
 | Performance formula | p50/p95/p99 318/348/348 ms; 825 tokens/s; 164.94 requests/s; 3300 MB | Arithmetic constants; no endpoint requests or GPU-memory measurement |
 
-The historical GRPO claim (six steps, 288.1 seconds, reward mean/max 0.688/0.798) has no retained training log or checkpoint in this checkout. It is excluded from measured results. GRPO was not rerun for this documentation update. The old summary chart is not used as evidence.
+The historical GRPO claim (six steps, 288.1 seconds, reward mean/max 0.688/0.798) has no retained training log or checkpoint in this checkout. It is excluded from measured results. That historical run is not reclassified as evidence; a separate verified GRPO implementation check is documented below. The old summary chart is not used as evidence.
 
 ## Installation
 
@@ -77,8 +77,8 @@ Use package-qualified modules such as `python -m ecom_posttrain.data.prepare_dat
 | --- | --- | --- |
 | P0: actual model evaluation | Replace reference copying and template generation with base/SFT/DPO inference on identical prompts; retain outputs and checkpoint identities | Recompute metrics from saved predictions; report language/task breakdown, factuality, sample counts, and uncertainty |
 | P0: prevent leakage | Split by product ID before expanding tasks or preference pairs; current test overlap is 51/52 products | Assert disjoint product IDs and inspect duplicate text/image identities |
-| P0: correct GRPO objective | Policy log-probability calculation receives the attention mask instead of response labels. KL is computed under `no_grad` using detached policy log-probabilities; the standalone loss also detaches the policy KL term | Test response-only masking and prove that changing KL weight changes policy gradients before interpreting reward trends |
-| P1: connect training stages | DPO starts from base; the pipeline passes `latest` to GRPO while SFT writes `step_latest` | Load the intended policy adapter/reference and verify checkpoint identities |
+| Fixed: GRPO objective (2026-10-21) | Response labels and exact generated token IDs now define the policy objective; the nonnegative KL estimator keeps policy gradients | Gradient/masking/clipping tests, actual DPO-initialized updates, checkpoint generation and cancellation passed; see the GRPO section |
+| P1: connect training stages | The legacy DPO pipeline starts from base; the GRPO stage now targets the actual SFT `step_latest` artifact | Load the intended policy adapter/reference and verify checkpoint identities |
 | P1: reliable orchestration | Old module names, mixed artifact locations, unconditional success reporting | Use package-qualified modules and one artifact root; propagate required-stage failures |
 | P1: factuality filtering | Tuned templates produce 19 warnings out of 20; sources are joined by position | Join by product ID; extract prices, sales, and ratings separately; measure false positives and missed errors |
 | P1: bilingual metrics | Whitespace tokenization and length-based quality proxies distort scores | Use validated language-aware tokenization and blinded factuality/usefulness review |
@@ -96,3 +96,20 @@ These are proposed improvements, not implemented fixes. Establish valid splits a
 - `ecom_posttrain/deployment/`: serving configuration, quantization helpers, simulated benchmark.
 - [Project notes](docs/project_readme.md), [technical design](docs/technical_design.md), [experiment design](docs/ab_test_design.md), [verification](docs/verification/README.md).
 - [Software engineering design review](docs/software_engineering_review.md): boundaries, correctness, testing, security, performance, and a prioritized improvement sequence using the Agent Skills workflow.
+
+
+## GRPO training
+
+GRPO is implemented in this application layer and reuses nano-posttrain model, reference and LoRA helpers. The local companion lab at `../sites/ecom-posttrain-lab` exposes it under Method → GRPO. The standalone command is:
+
+```bash
+python -m ecom_posttrain.model.grpo_train --model_name Qwen/Qwen2.5-0.5B --data_path dataset/processed/preference_train.jsonl --model_path output/readme_dpo/latest --output_dir output/grpo_verified --max_steps 3 --group_size 4 --prompts_per_step 1 --max_examples 8 --max_length 128 --max_prompt_length 64 --max_new_tokens 24 --learning_rate 1e-5 --kl_beta 0.02
+```
+
+The selected checkpoint must exist and match the configured base model and LoRA rank/alpha; remove `--model_path` to start from base. Both policy and frozen reference restore that initial adapter. The CLI rejects the old unimplemented `model_based` reward option; the implemented reward is the existing e-commerce rule heuristic plus group diversity.
+
+The original sequence-normalized GRPO objective uses group-standardized rewards, an on-policy probability-ratio surrogate and the differentiable estimator `exp(logp_ref-logp_policy) - (logp_ref-logp_policy) - 1`. Policy gradients pass through the KL term. The trainer performs one update per fresh rollout batch, with dropout disabled, scoring temperature matched to rollout temperature, and exact generated tokens replayed through response-only labels. EOS is included once; post-EOS padding and prompt tokens are excluded. Sequence micro-batches limit memory while preserving equal-sequence normalization. Clipping is inactive on a single fresh-policy update; the standalone loss accepts explicit old-policy values and verifies clipping independently. Reference weights remain frozen. See [TRL's GRPO objective](https://huggingface.co/docs/trl/grpo_trainer#computing-the-loss).
+
+`on_step` and `should_stop` callbacks support the local live monitor and cooperative cancellation. Receipts report completed updates, rule reward mean/min/max, KL, advantages and flat groups. Partial accumulation is discarded on cancellation. A flat-reward group supplies zero relative reward advantage; no fake improvement is reported. The CLI retains `latest/lora.pt`, `grpo_history.json` and an actual-step report. The lab additionally saves immutable step adapters and exposes checkpoint generation.
+
+The retained [2026-10-21 verification](docs/verification/grpo_2026-10-21.json) records three real updates initialized from the existing DPO smoke adapter, 12 completions, checkpoint generation and cancellation preserving a completed update. Training elapsed time was 52.540 seconds and peak allocated VRAM was 1,313.9 MiB on the local RTX 3060 8GB. Reward means were 0.6381 → 0.7423 → 0.6866; all 338 adapter tensors changed and remained finite. These are execution checks, not convergence, human preference or CTR evidence. The seven GRPO unit tests run with `python -m unittest discover -s tests -v` in an environment containing the project and nano-posttrain dependencies.

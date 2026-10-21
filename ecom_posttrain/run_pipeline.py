@@ -119,9 +119,9 @@ def main() -> int:
     if not args.skip_grpo:
         # 4b. GRPO（第三阶段：组内 rollout + 规则奖励 + KL 约束）
         run(
-            [sys.executable, "-m", "model.grpo_train",
+            [sys.executable, "-m", "ecom_posttrain.model.grpo_train",
              "--data_path", str(dataset_dir / "processed" / "preference_train.jsonl"),
-             "--model_path", str(output_dir / "ecommerce_sft" / "latest"),
+             "--model_path", str(output_dir / "ecommerce_sft" / "step_latest"),
              "--output_dir", str(output_dir / "ecommerce_grpo"),
              "--group_size", "4", "--prompts_per_step", "2",
              "--max_steps", str(args.grpo_steps),

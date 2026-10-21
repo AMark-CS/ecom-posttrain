@@ -73,3 +73,8 @@ No dependency vulnerability scan, adversarial endpoint test, quantization valida
 5. Collect real latency/memory/quality data before adding quantization backends, caching, load balancing, distributed training, or workflow infrastructure.
 
 The useful acceptance bar is concrete: failed stages cannot be reported as successful; each model artifact is loadable and identified; datasets are disjoint; metrics consume actual predictions; and tests enforce these boundaries. The proposed changes preserve a small teaching project while making its claims reproducible.
+
+
+## GRPO follow-up (2026-10-21)
+
+The GRPO masking and detached-KL findings in the earlier audit are fixed. The shared trainer now preserves sampled tokens/EOS, uses response labels, differentiable KL and a frozen copy of the initial adapter. Gradient/optimizer tests and retained real-GPU updates, checkpoint generation and cancellation checks passed; see `verification/grpo_2026-10-21.json`. Other historical pipeline/evaluation findings are not implicitly marked resolved by this GRPO change.
