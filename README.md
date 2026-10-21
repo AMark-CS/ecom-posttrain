@@ -4,6 +4,12 @@ An e-commerce post-training demo built on [nano-posttrain](https://github.com/AM
 
 The training wrappers execute real PyTorch training. Generation, evaluation, performance benchmarking, and multimodal alignment currently contain simulations. Their outputs do not establish model quality, business lift, or serving performance.
 
+## Live workspace demo
+
+![Actual local workspace showing live SFT training, held-out evaluation, streamed generation and experiment search.](docs/images/live-workspace.gif)
+
+Recorded locally on 2026-10-21 with an RTX 3060. The companion lab shows a real **24-update SFT run** with `Qwen/Qwen2.5-0.5B`, response-token evaluation on a product-disjoint holdout, experiment search, and separate streamed generation using the unadapted `Qwen/Qwen2.5-0.5B-Instruct`. The opening view includes an earlier completed 500-step run. Screenshots are sampled into a shortened looping GIF; this is a workflow demonstration, not a latency benchmark or a claim about the SFT checkpoint's generation quality. These live operations are distinct from the legacy simulated demo commands described below.
+
 ## Verified results
 
 Verified locally on **2026-10-20**, using Windows, Python 3.12.14, PyTorch 2.11.0+cu128, Transformers 5.19.0, and an NVIDIA GeForce RTX 3060. Model: `Qwen/Qwen2.5-0.5B`; LoRA rank 16, alpha 32, dropout 0.05; bfloat16. The model was already cached.
