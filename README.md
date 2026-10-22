@@ -1,14 +1,14 @@
 # ecom-posttrain
 
-An e-commerce post-training demo built on [nano-posttrain](https://github.com/AMark-CS/nano-posttrain): synthetic data preparation, SFT, DPO, experimental GRPO, content filtering, offline metrics, and deployment scaffolding.
+An e-commerce post-training demo built on [nano-posttrain](https://github.com/AMark-CS/nano-posttrain): synthetic data preparation, SFT, DPO, experimental GRPO, content filtering, task evaluation and local GPU deployment experiments.
 
-The training wrappers execute real PyTorch training. Generation, evaluation, performance benchmarking, and multimodal alignment currently contain simulations. Their outputs do not establish model quality, business lift, or serving performance.
+The training wrappers and companion live lab execute real PyTorch training and inference. The legacy generation, evaluation, performance and multimodal demo commands contain simulations; those reports do not establish model quality, business lift or serving performance.
 
 ## Live workspace demo
 
-![Actual local workspace showing live SFT training, held-out evaluation, streamed generation and experiment search.](docs/images/live-workspace.gif)
+![Real local RTX 3060 experiment: 7B GPTQ Int4, FlashAttention2, live throughput/memory curves and task accuracy.](docs/images/local-3060-deployment.gif)
 
-Recorded locally on 2026-10-21 with an RTX 3060. The companion lab shows a real **24-update SFT run** with `Qwen/Qwen2.5-0.5B`, response-token evaluation on a product-disjoint holdout, experiment search, and separate streamed generation using the unadapted `Qwen/Qwen2.5-0.5B-Instruct`. The opening view includes an earlier completed 500-step run. Screenshots are sampled into a shortened looping GIF; this is a workflow demonstration, not a latency benchmark or a claim about the SFT checkpoint's generation quality. These live operations are distinct from the legacy simulated demo commands described below.
+Recorded on **2026-10-22 on the local RTX 3060 (8 GiB)** through a dedicated Linux container. The real `Qwen2.5-7B-Instruct-GPTQ-Int4` experiment uses FP16 computation, FlashAttention2, three measured repetitions after two warm-ups, and ARC-Challenge/HellaSwag/PIQA with 32 examples each. The 16-second looping GIF samples and shortens the actual run; it is a workflow recording, not a latency benchmark. [Earlier SFT training/generation recording](docs/images/live-workspace.gif).
 
 ## Verified results
 
@@ -54,7 +54,31 @@ Install the optional harness with `python -m pip install -e '.[evaluation]'` in 
 
 The benchmark uses batch one, warm-up, exact prompt-token counts and 50 greedy output tokens, with EOS ignored. Prefill produces token one; Decode measures the remaining 49 KV-cached forwards. The reported output throughput is 50 divided by that Decode interval, with this boundary retained explicitly. CUDA peak allocated/reserved memory and load peak are recorded. Task evaluation is zero-shot, no chat template, maximum length 2048, with matching seeds and effective sample counts. Limited runs are smoke tests; full splits must be selected for benchmark reporting. Performance deltas require matching protocols/hardware; no original AutoDL percentage claim is copied into these results.
 
-Verified on 2026-10-22: real 0.5B SDPA/Eager measurements, all three tasks with 32 examples each, an existing SFT adapter, live browser charts/restoration, and cancellation retaining partial measurements. These are execution/smoke checks. Quantized kernels, FlashAttention2, 7B and AutoDL RTX 3080 remain unverified. See the [actual receipts](docs/verification/deployment_2026-10-22.json) and [platform screenshot](docs/images/deployment-evaluation.png).
+The initial native Windows checks covered 0.5B SDPA/Eager, an existing SFT adapter, live charts/restoration and cancellation; those [earlier receipts](docs/verification/deployment_2026-10-22.json) are retained. The local 0.5B/7B quantization and FlashAttention2 experiment matrix below supersedes the earlier unverified status. AutoDL was not used.
+
+### Local RTX 3060 8-GiB experiments
+
+Measured locally with FP16 computation, batch 1, 128 prompt tokens, 50 greedy output tokens, two warm-ups and three measured repetitions. Task columns are **raw `acc`**, each on the first **32 examples**, zero-shot with no chat template. All models are the official **Instruct** variants. Decode uses the boundary documented above.
+
+| Model | Weights / attention | Prefill tok/s | Decode output tok/s | Peak CUDA MiB | ARC acc | HellaSwag acc | PIQA acc |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 7B | AWQ Int4 / SDPA | 639.13 | 15.08 | 5,379 | 50.00% | 62.50% | 81.25% |
+| 7B | GPTQ Int4 / SDPA | 1414.05 | 27.36 | 5,395 | 50.00% | 62.50% | 87.50% |
+| 7B | GPTQ Int4 / FA2 | 875.34 | 14.50 | 5,394 | 50.00% | 62.50% | 87.50% |
+| 0.5B | FP16 / SDPA | 4184.95 | 42.20 | 961 | 25.00% | 43.75% | 71.88% |
+| 0.5B | FP16 / FA2 | 2341.73 | 20.44 | 961 | 25.00% | 43.75% | 71.88% |
+| 0.5B | AWQ Int4 / SDPA | 1894.58 | 18.60 | 706 | 34.38% | 43.75% | 71.88% |
+| 0.5B | GPTQ Int4 / SDPA | 4209.81 | 37.46 | 454 | 21.88% | 43.75% | 75.00% |
+| 0.5B | GPTQ Int8 / SDPA | 3082.29 | 37.79 | 627 | 25.00% | 43.75% | 71.88% |
+| 7B | GPTQ Int8 (partial, oversubscribed) / SDPA | 53.41 | 2.86 | 8,504† | not completed | not completed | not completed |
+| 7B | FP16 (preflight rejected) / SDPA | — | — | — | — | — | — |
+
+The 0.5B GPTQ Int4 run reduced peak CUDA allocation by **52.81%** relative to the matched FP16/SDPA run. None of the tested optimized 0.5B configurations beat that baseline's Decode output throughput in this small workload. FlashAttention2 was slower for these short requests; it is not presented as an automatic speedup. Accuracy differences on 32 examples are smoke observations, not evidence that quantization improves or preserves general task quality.
+
+† 7B Int8 allocated about 8,504 MiB on an 8,192-MiB GPU and slowed to about 2.86 output tokens/s. The run was stopped during task evaluation; its three measured repetitions are retained, with no completed accuracy claim. This allocation exceeds physical capacity and is consistent with [system-memory fallback](https://nvidia.custhelp.com/app/answers/detail/a_id/5490), whose transfer/residency behavior was not directly profiled. The platform now flags oversubscription and rejects it from resident-GPU evaluation. 7B FP16 was rejected before loading: checkpoint weights alone require **14.19 GiB**, exceeding 8 GiB. No explicit CPU offload or replacement quantization was applied.
+
+[Complete configurations, raw observations, task counts, kernel classes, versions and failure reasons](docs/verification/local_3060_2026-10-22.json). Successful GPTQ runs used Marlin; AWQ used Triton. The local runtime pins Python 3.11, Torch 2.8.0+cu128, Transformers 4.56.2, GPTQModel 4.2.5, AutoAWQ 0.2.9 and FlashAttention2 2.8.3.post1. These results do not reuse the historical AutoDL improvement percentages.
+
 
 ## Installation
 
