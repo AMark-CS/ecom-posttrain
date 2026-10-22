@@ -46,6 +46,16 @@ Reports and reproduction commands are in [docs/verification](docs/verification/R
 
 The historical GRPO claim (six steps, 288.1 seconds, reward mean/max 0.688/0.798) has no retained training log or checkpoint in this checkout. It is excluded from measured results. That historical run is not reclassified as evidence; a separate verified GRPO implementation check is documented below. The old summary chart is not used as evidence.
 
+## Live deployment evaluation
+
+The companion local lab now calls `ecom_posttrain.deployment.live_evaluation` for real Prefill/Decode measurements and ARC-Challenge, HellaSwag and PIQA through EleutherAI LM Evaluation Harness. Its Deployment evaluation panel plots per-repetition throughput/peak VRAM, per-task `acc`/`acc_norm`, and completed configurations on a memory/throughput chart. Runs preserve their model revision, adapter, actual attention implementation, quantization metadata, environment and protocol. This measured path is separate from the legacy formula-based `deployment/benchmark.py` command.
+
+Install the optional harness with `python -m pip install -e '.[evaluation]'` in a compatible environment. Supported configuration choices include Qwen2.5-0.5B/7B, official Instruct AWQ/GPTQ Int4/Int8 weights, FP16/BF16, eager/SDPA/FlashAttention2. The selected quantized backend or attention kernel must actually be installed and compatible; failures never silently fall back to another method. Existing custom adapters support unquantized evaluation, while their quantization requires a merged and calibrated export.
+
+The benchmark uses batch one, warm-up, exact prompt-token counts and 50 greedy output tokens, with EOS ignored. Prefill produces token one; Decode measures the remaining 49 KV-cached forwards. The reported output throughput is 50 divided by that Decode interval, with this boundary retained explicitly. CUDA peak allocated/reserved memory and load peak are recorded. Task evaluation is zero-shot, no chat template, maximum length 2048, with matching seeds and effective sample counts. Limited runs are smoke tests; full splits must be selected for benchmark reporting. Performance deltas require matching protocols/hardware; no original AutoDL percentage claim is copied into these results.
+
+Verified on 2026-10-22: real 0.5B SDPA/Eager measurements, all three tasks with 32 examples each, an existing SFT adapter, live browser charts/restoration, and cancellation retaining partial measurements. These are execution/smoke checks. Quantized kernels, FlashAttention2, 7B and AutoDL RTX 3080 remain unverified. See the [actual receipts](docs/verification/deployment_2026-10-22.json) and [platform screenshot](docs/images/deployment-evaluation.png).
+
 ## Installation
 
 Run from the repository root. Install a PyTorch build appropriate for your hardware first.

@@ -1,0 +1,550 @@
+{
+  "date": "2026-10-22",
+  "scope": "Local RTX 3060 execution checks and first-32-example smoke evaluations; not a full benchmark or AutoDL result.",
+  "decode_boundary": "50 output tokens, first from Prefill; Decode interval covers 49 cached forwards. Reported output throughput uses 50 / Decode seconds.",
+  "runs": [
+    {
+      "id": "7bcacf9e12ae45549d9fb5de4db2e1f4",
+      "config": {
+        "kind": "deployment",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "adapter": "base",
+        "allow_download": false,
+        "mode": "both",
+        "quantization": "none",
+        "attention": "sdpa",
+        "dtype": "bfloat16",
+        "input_tokens": 128,
+        "decode_tokens": 50,
+        "repetitions": 3,
+        "warmup": 1,
+        "tasks": [
+          "arc_challenge",
+          "hellaswag",
+          "piqa"
+        ],
+        "limit": 32,
+        "seed": 42
+      },
+      "result": {
+        "type": "result",
+        "message": "Deployment evaluation completed",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "environment": {
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "vram_mb": 8192,
+          "torch": "2.11.0+cu128",
+          "transformers": "5.19.0",
+          "cuda": "12.8",
+          "python": "3.12.14",
+          "system": "Windows",
+          "gpu_capability": [
+            8,
+            6
+          ],
+          "lm_eval": "0.4.13"
+        },
+        "protocol": {
+          "batch_size": 1,
+          "input_tokens": 128,
+          "decode_tokens": 50,
+          "warmup": 1,
+          "repetitions": 3,
+          "seed": 42,
+          "num_fewshot": 0,
+          "apply_chat_template": false,
+          "limit": 32,
+          "evaluation_max_length": 2048,
+          "decode_definition": "50 greedy output tokens: first from prefill logits, followed by 49 KV-cached forward passes; EOS ignored",
+          "memory_definition": "CUDA peak allocated/reserved includes resident weights; phases reset separately; no CPU offload",
+          "prompt_sha256": "eef925e94d4988b155744c98dd9bea9d12625b36e5282d223ce6d4562a007478"
+        },
+        "benchmark": {
+          "prefill_tps": 2292.895963426221,
+          "decode_tps": 20.937572784243418,
+          "prefill_ms": 55.82460000005085,
+          "decode_ms": 2388.0513999993127
+        },
+        "peak_allocated_mb": 958.1064453125,
+        "task_scores": [
+          {
+            "task": "arc_challenge",
+            "acc": 0.28125,
+            "acc_norm": 0.3125,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1172,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "hellaswag",
+            "acc": 0.4375,
+            "acc_norm": 0.375,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 10042,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "piqa",
+            "acc": 0.71875,
+            "acc_norm": 0.625,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1838,
+              "effective": 32
+            },
+            "version": 1.0
+          }
+        ],
+        "attention": "sdpa",
+        "quantization": {},
+        "adapter": "base"
+      },
+      "benchmark": [
+        {
+          "type": "benchmark",
+          "step": 1,
+          "prefill_ms": 58.734199999889825,
+          "decode_ms": 2384.8590999996304,
+          "prefill_tps": 2179.3094994098856,
+          "decode_tps": 20.965599183619588,
+          "prefill_peak_mb": 958.1064453125,
+          "decode_peak_mb": 955.54931640625,
+          "peak_allocated_mb": 958.1064453125,
+          "peak_reserved_mb": 984.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        },
+        {
+          "type": "benchmark",
+          "step": 2,
+          "prefill_ms": 53.442599999470985,
+          "decode_ms": 2432.0003000002544,
+          "prefill_tps": 2395.0930531311546,
+          "decode_tps": 20.559207990227126,
+          "prefill_peak_mb": 958.1064453125,
+          "decode_peak_mb": 955.54931640625,
+          "peak_allocated_mb": 958.1064453125,
+          "peak_reserved_mb": 984.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        },
+        {
+          "type": "benchmark",
+          "step": 3,
+          "prefill_ms": 55.82460000005085,
+          "decode_ms": 2388.0513999993127,
+          "prefill_tps": 2292.895963426221,
+          "decode_tps": 20.937572784243418,
+          "prefill_peak_mb": 958.1064453125,
+          "decode_peak_mb": 955.54931640625,
+          "peak_allocated_mb": 958.1064453125,
+          "peak_reserved_mb": 984.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        }
+      ]
+    },
+    {
+      "id": "8ac202dcda1340bf88bc32e57af41778",
+      "config": {
+        "kind": "deployment",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "adapter": "base",
+        "allow_download": false,
+        "mode": "both",
+        "quantization": "none",
+        "attention": "eager",
+        "dtype": "bfloat16",
+        "input_tokens": 128,
+        "decode_tokens": 50,
+        "repetitions": 3,
+        "warmup": 1,
+        "tasks": [
+          "arc_challenge",
+          "hellaswag",
+          "piqa"
+        ],
+        "limit": 32,
+        "seed": 42
+      },
+      "result": {
+        "type": "result",
+        "message": "Deployment evaluation completed",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "environment": {
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "vram_mb": 8192,
+          "torch": "2.11.0+cu128",
+          "transformers": "5.19.0",
+          "cuda": "12.8",
+          "python": "3.12.14",
+          "system": "Windows",
+          "gpu_capability": [
+            8,
+            6
+          ],
+          "lm_eval": "0.4.13"
+        },
+        "protocol": {
+          "batch_size": 1,
+          "input_tokens": 128,
+          "decode_tokens": 50,
+          "warmup": 1,
+          "repetitions": 3,
+          "seed": 42,
+          "num_fewshot": 0,
+          "apply_chat_template": false,
+          "limit": 32,
+          "evaluation_max_length": 2048,
+          "decode_definition": "50 greedy output tokens: first from prefill logits, followed by 49 KV-cached forward passes; EOS ignored",
+          "memory_definition": "CUDA peak allocated/reserved includes resident weights; phases reset separately; no CPU offload",
+          "prompt_sha256": "eef925e94d4988b155744c98dd9bea9d12625b36e5282d223ce6d4562a007478"
+        },
+        "benchmark": {
+          "prefill_tps": 2780.173022291738,
+          "decode_tps": 20.79902014984441,
+          "prefill_ms": 46.040300000640855,
+          "decode_ms": 2403.9593999996214
+        },
+        "peak_allocated_mb": 958.5751953125,
+        "task_scores": [
+          {
+            "task": "arc_challenge",
+            "acc": 0.25,
+            "acc_norm": 0.34375,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1172,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "hellaswag",
+            "acc": 0.4375,
+            "acc_norm": 0.375,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 10042,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "piqa",
+            "acc": 0.6875,
+            "acc_norm": 0.625,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1838,
+              "effective": 32
+            },
+            "version": 1.0
+          }
+        ],
+        "attention": "eager",
+        "quantization": {},
+        "adapter": "base"
+      },
+      "benchmark": [
+        {
+          "type": "benchmark",
+          "step": 1,
+          "prefill_ms": 45.61509999984992,
+          "decode_ms": 2403.9593999996214,
+          "prefill_tps": 2806.088334793109,
+          "decode_tps": 20.79902014984441,
+          "prefill_peak_mb": 958.5751953125,
+          "decode_peak_mb": 954.17529296875,
+          "peak_allocated_mb": 958.5751953125,
+          "peak_reserved_mb": 982.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        },
+        {
+          "type": "benchmark",
+          "step": 2,
+          "prefill_ms": 46.742900000026566,
+          "decode_ms": 2495.682300000226,
+          "prefill_tps": 2738.383797323813,
+          "decode_tps": 20.034601359313832,
+          "prefill_peak_mb": 958.5751953125,
+          "decode_peak_mb": 954.17529296875,
+          "peak_allocated_mb": 958.5751953125,
+          "peak_reserved_mb": 982.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        },
+        {
+          "type": "benchmark",
+          "step": 3,
+          "prefill_ms": 46.040300000640855,
+          "decode_ms": 2367.008199999873,
+          "prefill_tps": 2780.173022291738,
+          "decode_tps": 21.12371220344851,
+          "prefill_peak_mb": 958.5751953125,
+          "decode_peak_mb": 954.17529296875,
+          "peak_allocated_mb": 958.5751953125,
+          "peak_reserved_mb": 982.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        }
+      ]
+    },
+    {
+      "id": "ddb05d6cfc624ccea9d40579ea5f010e",
+      "config": {
+        "kind": "deployment",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "adapter": "base",
+        "allow_download": false,
+        "mode": "both",
+        "quantization": "none",
+        "attention": "sdpa",
+        "dtype": "bfloat16",
+        "input_tokens": 64,
+        "decode_tokens": 50,
+        "repetitions": 2,
+        "warmup": 1,
+        "tasks": [
+          "arc_challenge",
+          "hellaswag",
+          "piqa"
+        ],
+        "limit": 32,
+        "seed": 42
+      },
+      "result": {
+        "type": "result",
+        "message": "Deployment evaluation completed",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+        "environment": {
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "vram_mb": 8192,
+          "torch": "2.11.0+cu128",
+          "transformers": "5.19.0",
+          "cuda": "12.8",
+          "python": "3.12.14",
+          "system": "Windows",
+          "gpu_capability": [
+            8,
+            6
+          ],
+          "lm_eval": "0.4.13"
+        },
+        "protocol": {
+          "batch_size": 1,
+          "input_tokens": 64,
+          "decode_tokens": 50,
+          "warmup": 1,
+          "repetitions": 2,
+          "seed": 42,
+          "num_fewshot": 0,
+          "apply_chat_template": false,
+          "limit": 32,
+          "evaluation_max_length": 2048,
+          "decode_definition": "50 greedy output tokens: first from prefill logits, followed by 49 KV-cached forward passes; EOS ignored",
+          "memory_definition": "CUDA peak allocated/reserved includes resident weights; phases reset separately; no CPU offload",
+          "prompt_sha256": "8d012256396711bde6df00ce8429df8bbc4b8c0ab28b1ba1914019ed844ea774"
+        },
+        "benchmark": {
+          "prefill_tps": 1040.7545771634632,
+          "decode_tps": 21.60929862156025,
+          "prefill_ms": 61.57725000002756,
+          "decode_ms": 2313.825050000105
+        },
+        "peak_allocated_mb": 954.43359375,
+        "load_peak_allocated_mb": 942.3232421875,
+        "evaluation_peak_allocated_mb": 1060.1923828125,
+        "task_scores": [
+          {
+            "task": "arc_challenge",
+            "acc": 0.28125,
+            "acc_norm": 0.3125,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1172,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "hellaswag",
+            "acc": 0.4375,
+            "acc_norm": 0.375,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 10042,
+              "effective": 32
+            },
+            "version": 1.0
+          },
+          {
+            "task": "piqa",
+            "acc": 0.71875,
+            "acc_norm": 0.625,
+            "acc_stderr": null,
+            "acc_norm_stderr": null,
+            "samples": {
+              "original": 1838,
+              "effective": 32
+            },
+            "version": 1.0
+          }
+        ],
+        "attention": "sdpa",
+        "quantization": {},
+        "adapter": "base"
+      },
+      "benchmark": [
+        {
+          "type": "benchmark",
+          "step": 1,
+          "prefill_ms": 63.84350000007544,
+          "decode_ms": 2310.002500000337,
+          "prefill_tps": 1002.4513067097571,
+          "decode_tps": 21.64499821969574,
+          "prefill_peak_mb": 954.43359375,
+          "decode_peak_mb": 954.07666015625,
+          "peak_allocated_mb": 954.43359375,
+          "peak_reserved_mb": 960.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        },
+        {
+          "type": "benchmark",
+          "step": 2,
+          "prefill_ms": 59.310999999979686,
+          "decode_ms": 2317.647599999873,
+          "prefill_tps": 1079.0578476171693,
+          "decode_tps": 21.573599023424762,
+          "prefill_peak_mb": 954.43359375,
+          "decode_peak_mb": 954.07666015625,
+          "peak_allocated_mb": 954.43359375,
+          "peak_reserved_mb": 960.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        }
+      ]
+    },
+    {
+      "id": "f516d1b1eb22492b820f5023ca5c5ed1",
+      "config": {
+        "kind": "deployment",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "adapter": "ecom-sft-smoke",
+        "allow_download": false,
+        "mode": "benchmark",
+        "quantization": "none",
+        "attention": "sdpa",
+        "dtype": "bfloat16",
+        "input_tokens": 128,
+        "decode_tokens": 50,
+        "repetitions": 1,
+        "warmup": 1,
+        "tasks": [
+          "arc_challenge",
+          "hellaswag",
+          "piqa"
+        ],
+        "limit": 32,
+        "seed": 42
+      },
+      "result": {
+        "type": "result",
+        "message": "Deployment evaluation completed",
+        "model": "Qwen/Qwen2.5-0.5B",
+        "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+        "environment": {
+          "gpu": "NVIDIA GeForce RTX 3060",
+          "vram_mb": 8192,
+          "torch": "2.11.0+cu128",
+          "transformers": "5.19.0",
+          "cuda": "12.8",
+          "python": "3.12.14",
+          "system": "Windows",
+          "gpu_capability": [
+            8,
+            6
+          ]
+        },
+        "protocol": {
+          "batch_size": 1,
+          "input_tokens": 128,
+          "decode_tokens": 50,
+          "warmup": 1,
+          "repetitions": 1,
+          "seed": 42,
+          "num_fewshot": 0,
+          "apply_chat_template": false,
+          "limit": 32,
+          "evaluation_max_length": 2048,
+          "decode_definition": "50 greedy output tokens: first from prefill logits, followed by 49 KV-cached forward passes; EOS ignored",
+          "memory_definition": "CUDA peak allocated/reserved includes resident weights; phases reset separately; no CPU offload",
+          "prompt_sha256": "eef925e94d4988b155744c98dd9bea9d12625b36e5282d223ce6d4562a007478"
+        },
+        "benchmark": {
+          "prefill_tps": 1337.2615390976314,
+          "decode_tps": 12.47640182168517,
+          "prefill_ms": 95.71800000048825,
+          "decode_ms": 4007.565699999759
+        },
+        "peak_allocated_mb": 980.0517578125,
+        "load_peak_allocated_mb": 963.7685546875,
+        "evaluation_peak_allocated_mb": null,
+        "task_scores": [],
+        "attention": "sdpa",
+        "quantization": {},
+        "adapter": "ecom-sft-smoke"
+      },
+      "benchmark": [
+        {
+          "type": "benchmark",
+          "step": 1,
+          "prefill_ms": 95.71800000048825,
+          "decode_ms": 4007.565699999759,
+          "prefill_tps": 1337.2615390976314,
+          "decode_tps": 12.47640182168517,
+          "prefill_peak_mb": 980.0517578125,
+          "decode_peak_mb": 976.99462890625,
+          "peak_allocated_mb": 980.0517578125,
+          "peak_reserved_mb": 1000.0,
+          "output_tokens": 50,
+          "cached_forwards": 49
+        }
+      ]
+    }
+  ],
+  "cancellation": {
+    "run_id": "24ccf576f332421fa17c76a34371c233",
+    "status": "cancelled",
+    "retained_repetitions": 1,
+    "observed_seconds": 0.004329100000177277
+  },
+  "missing_backend": "ValueError: Missing deployment dependencies: flash_attn. Use a compatible isolated environment; no fallback was applied.",
+  "not_verified": [
+    "AutoDL RTX 3080",
+    "7B weights",
+    "AWQ/GPTQ kernels",
+    "FlashAttention2",
+    "full task splits",
+    "quantizing custom adapters"
+  ]
+}

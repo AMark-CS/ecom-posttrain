@@ -15,3 +15,4 @@ dependencies = [
 ]
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.4", "matplotlib>=3.8", "seaborn>=0.13"]
+evaluation = ["lm_eval[hf]==0.4.13"]
